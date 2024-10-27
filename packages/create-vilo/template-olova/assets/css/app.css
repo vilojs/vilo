@@ -1,0 +1,42 @@
+/* General styling for dark theme */
+body {
+  background-color: #1e1e2f;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  margin: 0;
+}
+
+/* Style for the counter heading */
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #09d35c;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.counter-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
+}
+
+.image-section img {
+  max-width: 15%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.faq h4 {
+  text-align: center;
+  color: #a7a7a7;
+}
